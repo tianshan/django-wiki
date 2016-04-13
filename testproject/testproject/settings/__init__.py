@@ -7,7 +7,7 @@ PROJECT_PATH = os_path.abspath(os_path.split(os_path.dirname(__file__))[0])
 DEBUG = True
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+     ('admin', 'quts@dislab.nju.edu.cn'),
 )
 
 MANAGERS = ADMINS
@@ -22,10 +22,10 @@ DATABASES = {
 }
 
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-TIME_ZONE = 'Europe/Copenhagen'
+TIME_ZONE = 'Asia/shanghai'
 
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-dk'
+LANGUAGE_CODE = 'zh_CN'
 
 SITE_ID = 1
 
